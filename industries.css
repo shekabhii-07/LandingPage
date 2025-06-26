@@ -1,0 +1,59 @@
+/* industries.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eaf7f3;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Center content */
+.center {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 60px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  width: 90%;
+}
+
+/* Heading */
+.center h1 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.center p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+  background-color: #00aa77;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #007a5e;
+}
